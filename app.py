@@ -11,7 +11,7 @@ if __name__ == "__main__":
     input_file_path = sys.argv[1]
 
     spark = SparkSession.builder.appName("Spark").getOrCreate()
-    df = spark.read.json(input_file_path)
+    df = spark.read.csv(input_file_path)
 
     # Show example
     df.show(20)
