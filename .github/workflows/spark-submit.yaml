@@ -36,4 +36,5 @@ jobs:
           hadoop-version: '3'
 
       - run: |
-          spark-submit app.py test_data.csv
+          # spark-submit app.py test_data.csv
+          pytest app.py
