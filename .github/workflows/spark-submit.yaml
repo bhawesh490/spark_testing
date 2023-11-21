@@ -42,4 +42,4 @@ jobs:
           hadoop-version: '3'
 
       - run: |
-          spark-submit pytest app.py
+          spark-submit app.py
