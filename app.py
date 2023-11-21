@@ -20,6 +20,6 @@ if __name__ == "__main__":
 
     # Queries
     spark.sql("SELECT * FROM df LIMIT 10").show()
-    spark.sql("SELECT COUNT(*) FROM df").show()
-    spark.sql("SELECT cn, COUNT(*) FROM df GROUP BY cn ORDER BY 2 DESC").show()
-    spark.sql("SELECT cn, MAX(temp) AS max_temp FROM df GROUP BY cn ORDER BY 2 DESC").show()
+    # spark.sql("SELECT COUNT(*) FROM df").show()
+    # spark.sql("SELECT cn, COUNT(*) FROM df GROUP BY cn ORDER BY 2 DESC").show()
+    # spark.sql("SELECT cn, MAX(temp) AS max_temp FROM df GROUP BY cn ORDER BY 2 DESC").show()
