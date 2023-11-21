@@ -29,7 +29,7 @@
 import sys
 import pytest
 from pyspark.sql import SparkSession
-from test_func import * 
+# from test_func import * 
 
 
 if __name__ == "__main__":
